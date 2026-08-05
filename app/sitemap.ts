@@ -1,20 +1,11 @@
 import type { MetadataRoute } from "next";
+import { siteConfig } from "../content/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = "https://solvialp.vercel.app";
-
-    return [
-        {
-            url: baseUrl,
-            lastModified: new Date(),
-            changeFrequency: "monthly",
-            priority: 1,
-        },
-        {
-            url: `${baseUrl}/lp`,
-            lastModified: new Date(),
-            changeFrequency: "monthly",
-            priority: 0.9,
-        },
-    ];
+  const paths = ["", "/support", "/contract", "/company", "/privacy", "/terms"];
+  return paths.map((path, index) => ({
+    url: `${siteConfig.siteUrl}${path}`,
+    changeFrequency: index < 3 ? "monthly" : "yearly",
+    priority: index === 0 ? 1 : index < 3 ? 0.8 : 0.4,
+  }));
 }

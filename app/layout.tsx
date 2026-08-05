@@ -1,85 +1,77 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { siteConfig } from "../content/site";
 import "./globals.css";
 
-const BASE_URL = "https://solvialp.vercel.app";
-
 export const metadata: Metadata = {
-  metadataBase: new URL(BASE_URL),
-  title: "solvia | ライバー事務所",
-  description:
-    "ライバー事務所solvia。マネジメントスタッフはライバー経験者多数。初心者でも安心してライブ配信を始められるサポートを致します。初期費用0円・縛りなし・還元率100%。",
-  alternates: {
-    canonical: "/",
+  metadataBase: new URL(siteConfig.siteUrl),
+  title: {
+    default: "solvia｜配信を見て、次の一手まで返すライバー事務所",
+    template: "%s｜solvia",
   },
+  description: siteConfig.description,
+  alternates: { canonical: "/" },
+  applicationName: "solvia",
+  category: "business",
   openGraph: {
-    title: "solvia | ライバー事務所",
-    description:
-      "マネジメントスタッフはライバー経験者多数。初心者でも安心してライブ配信を始められるサポートを致します。",
+    title: "配信を見て、次の一手まで返す。｜solvia",
+    description: siteConfig.description,
     siteName: "solvia",
     locale: "ja_JP",
     type: "website",
-    url: BASE_URL,
+    url: siteConfig.siteUrl,
   },
   twitter: {
     card: "summary_large_image",
-    title: "solvia | ライバー事務所",
-    description:
-      "マネジメントスタッフはライバー経験者多数。初期費用0円・縛りなし。",
+    title: "配信を見て、次の一手まで返す。｜solvia",
+    description: siteConfig.description,
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: siteConfig.isProductionApproved
+    ? { index: true, follow: true }
+    : { index: false, follow: false, noarchive: true },
 };
 
-// JSON-LD structured data
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f6f1e9" },
+    { media: "(prefers-color-scheme: dark)", color: "#171513" },
+  ],
+  colorScheme: "light",
+};
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Organization",
-      name: "solvia",
-      url: BASE_URL,
-      description:
-        "ライバー事務所solvia。マネジメントスタッフはライバー経験者多数。初心者でも安心してライブ配信を始められるサポートを致します。",
-      sameAs: [
-        "https://www.tiktok.com/@solvia_0fficial",
-        "https://lin.ee/cGHJDjx",
-      ],
+      name: siteConfig.name,
+      url: siteConfig.siteUrl,
+      description: siteConfig.description,
+      sameAs: [siteConfig.tiktokUrl, siteConfig.lineUrl],
     },
     {
       "@type": "WebSite",
-      name: "solvia",
-      url: BASE_URL,
+      name: siteConfig.name,
+      url: siteConfig.siteUrl,
+      inLanguage: "ja-JP",
     },
   ],
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ja">
-      <head>
-        <meta name="theme-color" content="#FFF5F7" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
+      <body>
+        <a className="skip-link" href="#main-content">本文へ移動</a>
+        {children}
+        <Analytics />
+        <SpeedInsights />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-      </head>
-      <body>{children}</body>
+      </body>
     </html>
   );
 }

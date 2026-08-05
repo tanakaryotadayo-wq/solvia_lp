@@ -1,0 +1,58 @@
+[
+  {
+    "id": "human-stream-review",
+    "statement": "担当者が実際の配信を確認し、次回の改善案まで提案する",
+    "status": "operator-review",
+    "owner": "solvia operator",
+    "evidence": "Current service definition; final operator confirmation required",
+    "validFrom": "2026-08-05"
+  },
+  {
+    "id": "beginner-consultation",
+    "statement": "配信未経験から相談できる",
+    "status": "operator-review",
+    "owner": "solvia operator",
+    "evidence": "Current published service copy; final operator confirmation required",
+    "validFrom": "2026-08-05"
+  },
+  {
+    "id": "transfer-consultation",
+    "statement": "他事務所との契約状況を確認した上で移籍相談に対応する",
+    "status": "operator-review",
+    "owner": "solvia operator",
+    "evidence": "Current published service copy; final operator confirmation required",
+    "validFrom": "2026-08-05"
+  },
+  {
+    "id": "consultation-without-pressure",
+    "statement": "相談だけでも受け付け、契約を急がせない",
+    "status": "operator-review",
+    "owner": "solvia operator",
+    "evidence": "Operating policy; final operator confirmation required",
+    "validFrom": "2026-08-05"
+  },
+  {
+    "id": "written-contract-terms",
+    "statement": "開始前に費用・報酬・期間・権利関係を書面で提示する",
+    "status": "operator-review",
+    "owner": "solvia operator",
+    "evidence": "Contract process; document template and final operator confirmation required",
+    "validFrom": "2026-08-05"
+  },
+  {
+    "id": "feedback-summary",
+    "statement": "配信レビューを良かった点・改善点・次回の実験に整理して返す",
+    "status": "operator-review",
+    "owner": "solvia operator",
+    "evidence": "Support workflow; final operator confirmation required",
+    "validFrom": "2026-08-05"
+  },
+  {
+    "id": "take-home-review",
+    "statement": "契約条件を持ち帰って検討できる",
+    "status": "operator-review",
+    "owner": "solvia operator",
+    "evidence": "Contract process; final operator confirmation required",
+    "validFrom": "2026-08-05"
+  }
+]
