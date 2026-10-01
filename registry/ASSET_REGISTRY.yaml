@@ -1,0 +1,25 @@
+schema_version: "0.1"
+updated_at: "2026-10-02"
+assets:
+  owner_original:
+    filename: IMG_6289.jpeg
+    role: 社長本人写真の正本
+    sha256: f06e63a6b7cff971b1bf2a7644ad3a88eb71fd055bff2838d00a60c664a1231a
+    storage: space:/Solvia/01_正本/IMG_6289_owner_original.jpeg
+    mutable: false
+  approved_visual_reference:
+    filename: IMG_6394.jpeg
+    role: 承認済みレイアウト参照
+    sha256: 089abc466f79acb5ed642ab2e2a1eee5a0ab7156c5857d29aeea120098ffe349
+    storage: space:/Solvia/01_正本/IMG_6394_approved_visual_reference.jpeg
+    mutable: false
+  yawn_animation:
+    filename: solvia-yawn-animation.mp4
+    role: 初期から使用しているブランド動画
+    sha256: b2a7588b8742ce812f81e3b8ba6a9f9da5ca16949687fc619930f1da5f2f7c84
+    git_blob_sha: 0a0d3de0545fe7a312924ab319d0b5b38289378d
+    mutable: false
+rules:
+  - 正本資産は上書きせず、新版は別Identityとして登録する
+  - 人物写真のAI再生成・髪型変更・服装変更は禁止
+  - 動画は静止画へ置換しない

@@ -1,0 +1,18 @@
+schema_version: "0.1"
+updated_at: "2026-10-02"
+status: draft
+projects:
+  solvialp: {role: A系の既存公開候補, source_identity: unresolved}
+  solvia-a-plus: {role: A Plus公開候補, source_identity: recovery_required}
+  solvia-c-editorial: {role: C Editorial, source_identity: package_available}
+  solvia-c-agency-style: {role: C Agency Style, source_identity: package_available}
+  solvia-d-luxe: {role: D Luxe, source_identity: recovery_required}
+  solvia-d-pink-luxe-v2: {role: D Pink Luxe, source_identity: package_available}
+  solvia-f-premium-agency: {role: F Premium Agency, source_identity: package_available}
+  solvia-f-youth-motion-v3: {role: F Youth Motion, source_identity: fragile_loader_lineage}
+  solvia-f-visual-freeze-v1: {role: F Visual Freeze, source_identity: package_available_git_incomplete}
+  solvia-f-motion-system-v1: {role: F Motion System, source_identity: package_available_git_partial}
+rules:
+  - URLはプロジェクト名から推測せずDeployment IDと実応答で確定する
+  - PreviewとProductionを分離する
+  - Git commit / artifact hash / deployment idを一対一で記録する

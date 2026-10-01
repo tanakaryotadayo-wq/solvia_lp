@@ -1,0 +1,141 @@
+schema_version: '0.1'
+generated_at: '2026-10-02'
+repository: tanakaryotadayo-wq/solvia_lp
+counts:
+  github_branch_labels: 14
+  github_unique_heads: 8
+  recovered_complete_implementation_packages: 11
+  operational_lineages: 14
+  known_vercel_site_projects_minimum: 12
+  known_vercel_probe_projects_minimum: 2
+shared_assets:
+  owner_original:
+    filename: IMG_6289.jpeg
+    sha256: f06e63a6b7cff971b1bf2a7644ad3a88eb71fd055bff2838d00a60c664a1231a
+  approved_visual_reference:
+    filename: IMG_6394.jpeg
+    sha256: 089abc466f79acb5ed642ab2e2a1eee5a0ab7156c5857d29aeea120098ffe349
+  yawn_animation:
+    filename: solvia-yawn-animation.mp4
+    sha256: b2a7588b8742ce812f81e3b8ba6a9f9da5ca16949687fc619930f1da5f2f7c84
+lineages:
+- id: a-original
+  label: A Original
+  sources:
+  - github:main
+  - vercel:solvialp
+  - vercel:solvia_lp
+  status: source_complete
+- id: a-plus
+  label: A Plus
+  sources:
+  - vercel:solvia-a-plus
+  status: source_recovery_required
+- id: c-editorial
+  label: C Editorial
+  sources:
+  - artifact:SOLVIA_C_EDITORIAL_PREVIEW_v0.1.zip
+  - vercel:solvia-c-editorial
+  status: package_complete
+  primary_html_sha256: 958de4fc2cfbad4127f37fd25f9196865d5bfddeaac9a1519c638f5c89d29f58
+- id: c-agency-style
+  label: C Agency Style
+  sources:
+  - artifact:SOLVIA_C_AGENCY_STYLE_v0.2.zip
+  - vercel:solvia-c-agency-style
+  status: package_complete
+  primary_html_sha256: b37d66a696ce05534c6faeab06b7a156c595fda708a3d5b4ef1c7c4767aa1232
+- id: d-luxe
+  label: D Luxe
+  sources:
+  - vercel:solvia-d-luxe
+  status: source_recovery_required
+- id: d-pink-luxe
+  label: D Pink Luxe
+  sources:
+  - github:solvia-d-pink-luxe
+  - artifact:SOLVIA_D_PINK_LUXE_V2_SELF_CONTAINED.zip
+  - vercel:solvia-d-pink-luxe-v2
+  status: source_and_package_available
+  primary_html_sha256: d023ac3c7a4eb78b72c7275937e5d3b280f8a9051548405e1d772d377acba6de
+- id: f-premium-agency
+  label: F Premium Agency
+  sources:
+  - artifact:SOLVIA_F_PREMIUM_AGENCY.zip
+  - vercel:solvia-f-premium-agency
+  status: package_complete
+  primary_html_sha256: eb873c0ba4e35102e862ec7ce72c3fb82007ab7ea67ce5517f2a922203b2f9b9
+- id: f-rizz-nini
+  label: F Rizz / Nini
+  sources:
+  - artifact:SOLVIA_F_RIZZ_NINI.zip
+  - github:solvia-f-rizz-motion(incomplete)
+  status: package_complete_git_incomplete
+  primary_html_sha256: 5ee5e3d6e90148d48c7b240f82f7c5a24c1ca0d5b416cf0a6f505683f6305d56
+- id: f-youth-motion
+  label: F Youth Motion
+  sources:
+  - artifact:SOLVIA_F_YOUTH_MOTION_V3.zip
+  - github:solvia-f-youth-motion-v3
+  - vercel:solvia-f-youth-motion-v3
+  status: complete_but_fragile_loader
+  primary_html_sha256: 23c21e760ae887997e7ddecee4fbd19104ef2ea7902dae26023eac0f264f4888
+- id: f-visual-freeze
+  label: F Visual Freeze
+  sources:
+  - artifact:SOLVIA_F_VISUAL_FREEZE_V1.zip
+  - library:SOLVIA_F_VISUAL_FREEZE_V1_PREVIEW.html
+  - github:solvia-f-visual-freeze-v1(incomplete)
+  - vercel:solvia-f-visual-freeze-v1
+  status: package_complete_git_incomplete
+  primary_html_sha256: 0a8622315d04b9c3ab960a82945e6e6e568ba21f302eb4c22a579ca87ca96f25
+- id: f-owner-exact
+  label: F Owner Exact
+  sources:
+  - artifact:SOLVIA_F_OWNER_EXACT_FINAL.zip
+  - library:SOLVIA_F_OWNER_EXACT_PREVIEW.html
+  - github:solvia-f-owner-exact(alias)
+  status: package_complete_git_alias
+  primary_html_sha256: 4d1a8b3af3ef13e6abceeec8e8af8a912b3be0f9fcb6141bc7ddd48525b90259
+- id: f-approved-page
+  label: F Approved Page
+  sources:
+  - artifact:SOLVIA_F_APPROVED_PAGE_V1.zip
+  - github:solvia-f-approved-exact-v1(alias)
+  status: package_complete_git_alias
+  primary_html_sha256: df3daeeb633c004037f72410bbe911e3577f1485113b0266ad4735dd825808b0
+- id: f-canonical-current
+  label: F Motion / Canonical Hero
+  sources:
+  - artifact:SOLVIA_F_MOTION_SYSTEM_V1.zip
+  - artifact:SOLVIA_F_CANONICAL_V1_CHECKPOINT.zip
+  - artifact:SOLVIA_APPROVED_HERO_PUBLICATION_REPAIRED.zip
+  - github:solvia-f-motion-system-v1(partial)
+  - vercel:solvia-f-motion-system-v1
+  status: hero_approved_full_page_not_yet_canonical
+  approved_hero_sha256: 8484229df4386bfb7990df62ec69d4b3dc70c9d24d5bb44181538794268f11f3
+- id: frontier-v2
+  label: Frontier v2
+  sources:
+  - github:codex/solvia-frontier-v2
+  status: source_complete_separate_architecture
+github_alias_branches_pointing_to_main:
+- solvia-f-approved-exact-v1
+- solvia-f-owner-exact
+- solvia-f-review-nosakura
+- solvia-f-rizz-motion-v2
+- solvia-f-rizz-nini
+- solvia-f-youth-motion
+github_incomplete_states:
+- solvia-f-rizz-motion
+- solvia-f-visual-freeze-v1
+- solvia-f-motion-system-v1
+- solvia-f-youth-motion-v2
+next_actions:
+- Freeze this registry before deleting or renaming anything
+- Import 11 complete packages unchanged under versions/
+- Record package and primary HTML hashes
+- Create assets/shared with immutable owner photo and yawn animation
+- Recover A Plus and D Luxe sources
+- Mark incomplete branches as legacy/incomplete rather than treating them as deployable
+- Connect current only after a full-page version is approved
