@@ -1,0 +1,63 @@
+schema_version: '0.1'
+updated_at: '2026-10-02'
+policy:
+  - package bytes are immutable
+  - sha256 must match before extraction
+  - extraction never overwrites unless explicitly requested
+  - Space is the binary package authority until the exact package is imported to Git
+packages:
+  c-editorial:
+    filename: SOLVIA_C_EDITORIAL_PREVIEW_v0.1.zip
+    space_path: /Solvia/02_バージョン/03_C_Editorial/SOLVIA_C_EDITORIAL_PREVIEW_v0.1.zip
+    size_bytes: 4253105
+    sha256: 6e6834cf706eea0a7c37e0d8345c075221fa8acc46caf32452822c87500ccc97
+  c-agency-style:
+    filename: SOLVIA_C_AGENCY_STYLE_v0.2.zip
+    space_path: /Solvia/02_バージョン/04_C_Agency_Style/SOLVIA_C_AGENCY_STYLE_v0.2.zip
+    size_bytes: 11023
+    sha256: 4840460682ee2cd4332bac007801daa8ec49399664d924b3119d5610b0bc8893
+  d-pink-luxe:
+    filename: SOLVIA_D_PINK_LUXE_V2_SELF_CONTAINED.zip
+    space_path: /Solvia/02_バージョン/06_D_Pink_Luxe/SOLVIA_D_PINK_LUXE_V2_SELF_CONTAINED.zip
+    size_bytes: 1771754
+    sha256: 121e1553bf2aa5cfb0d29f166f5a823bbed0702fd6edc044ad33fb7f0f230aa4
+  f-premium-agency:
+    filename: SOLVIA_F_PREMIUM_AGENCY.zip
+    space_path: /Solvia/02_バージョン/07_F_Premium_Agency/SOLVIA_F_PREMIUM_AGENCY.zip
+    size_bytes: 1770358
+    sha256: b642c593e3fab86943b8740801a243fa4121be56b3e09538c014b877638445db
+  f-rizz-nini:
+    filename: SOLVIA_F_RIZZ_NINI.zip
+    space_path: /Solvia/02_バージョン/08_F_Rizz_Nini/SOLVIA_F_RIZZ_NINI.zip
+    size_bytes: 177788
+    sha256: caf10a4931bc1e5a03b48636a49184bb1887ce94749209f047b9c56776c02db4
+  f-youth-motion:
+    filename: SOLVIA_F_YOUTH_MOTION_V3.zip
+    space_path: /Solvia/02_バージョン/09_F_Youth_Motion/SOLVIA_F_YOUTH_MOTION_V3.zip
+    size_bytes: 1870568
+    sha256: 441f5f27d02ee98e165774f61a1b00aae376075c25cfd77c102a54faaf9d270f
+  f-visual-freeze:
+    filename: SOLVIA_F_VISUAL_FREEZE_V1.zip
+    space_path: /Solvia/02_バージョン/10_F_Visual_Freeze/SOLVIA_F_VISUAL_FREEZE_V1.zip
+    size_bytes: 22287105
+    sha256: f158a59efb38dfd6ff35fbfcd5df71b244619bb20158ca03b8d887b653ddb1f5
+  f-owner-exact:
+    filename: SOLVIA_F_OWNER_EXACT_FINAL.zip
+    space_path: /Solvia/02_バージョン/11_F_Owner_Exact/SOLVIA_F_OWNER_EXACT_FINAL.zip
+    size_bytes: 2021793
+    sha256: c8f64d2b30df271ed9ada7c67174ec077ca0e73fb0ea4a7e6baf51905b523bf0
+  f-approved-page:
+    filename: SOLVIA_F_APPROVED_PAGE_V1.zip
+    space_path: /Solvia/02_バージョン/12_F_Approved_Page/SOLVIA_F_APPROVED_PAGE_V1.zip
+    size_bytes: 10662944
+    sha256: 6d23f6bc635ca2af0798d09662b63d1c10695ab4c1cb0c0c395601a570b87755
+  f-motion-system:
+    filename: SOLVIA_F_MOTION_SYSTEM_V1.zip
+    space_path: /Solvia/02_バージョン/13_F_Canonical_Current/SOLVIA_F_MOTION_SYSTEM_V1.zip
+    size_bytes: 42553267
+    sha256: e6d9611a6b9131dd2bdb6935019b3be8239cab7f6ea7c8e6ab767674df338be5
+  f-canonical-current:
+    filename: SOLVIA_F_CANONICAL_V1_CHECKPOINT.zip
+    space_path: /Solvia/02_バージョン/13_F_Canonical_Current/SOLVIA_F_CANONICAL_V1_CHECKPOINT.zip
+    size_bytes: 15345555
+    sha256: f96123d6cd6784b43ea69dd6e3bdff1a741d7b4090693b1d88346aed6dddc056

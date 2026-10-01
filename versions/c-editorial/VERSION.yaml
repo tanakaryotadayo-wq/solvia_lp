@@ -2,6 +2,8 @@ schema_version: '0.1'
 id: c-editorial
 label: C Editorial
 source: SOLVIA_C_EDITORIAL_PREVIEW_v0.1.zip
-source_status: complete
-note: Spaceの完全パッケージからsourceを無改変抽出。
-space_root: /Solvia/02_バージョン
+source_status: package-complete-git-source-partial
+note: Spaceの完全ZIPが正本。Gitにはindex・runtime・legal pagesを収容済み、styles.css直置きは次工程。
+space_root: /Solvia/02_バージョン/03_C_Editorial
+package_sha256: 6e6834cf706eea0a7c37e0d8345c075221fa8acc46caf32452822c87500ccc97
+primary_html_sha256: 958de4fc2cfbad4127f37fd25f9196865d5bfddeaac9a1519c638f5c89d29f58
