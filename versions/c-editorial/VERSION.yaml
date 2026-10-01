@@ -1,0 +1,7 @@
+schema_version: '0.1'
+id: c-editorial
+label: C Editorial
+source: SOLVIA_C_EDITORIAL_PREVIEW_v0.1.zip
+source_status: complete
+note: Spaceの完全パッケージからsourceを無改変抽出。
+space_root: /Solvia/02_バージョン

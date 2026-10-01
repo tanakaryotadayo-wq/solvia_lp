@@ -1,0 +1,7 @@
+schema_version: '0.1'
+id: a-plus
+label: A Plus
+source: space-status
+source_status: source-recovery-required
+note: Vercel上の存在は確認済み。独立完全ソース未回収。
+space_root: /Solvia/02_バージョン

@@ -1,0 +1,7 @@
+schema_version: '0.1'
+id: f-canonical-current
+label: F Motion / Canonical Hero
+source: SOLVIA_F_CANONICAL_V1_CHECKPOINT.zip
+source_status: hero-approved
+note: Heroのみ承認済み。全ページ正本は未確定。
+space_root: /Solvia/02_バージョン

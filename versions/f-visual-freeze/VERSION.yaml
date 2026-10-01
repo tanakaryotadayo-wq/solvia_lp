@@ -1,0 +1,7 @@
+schema_version: '0.1'
+id: f-visual-freeze
+label: F Visual Freeze
+source: SOLVIA_F_VISUAL_FREEZE_V1.zip
+source_status: pending-binary-import
+note: source text回収済み。人物・動画・concern assetsのGit取込み待ち。
+space_root: /Solvia/02_バージョン

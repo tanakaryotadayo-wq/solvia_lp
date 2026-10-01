@@ -1,0 +1,7 @@
+schema_version: '0.1'
+id: frontier-v2
+label: Frontier v2
+source: git:codex/solvia-frontier-v2
+source_status: source-complete-separate-architecture
+note: API/DB/フォーム/法務を含む別アーキテクチャ。LP系と無断統合しない。
+space_root: /Solvia/02_バージョン

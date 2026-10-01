@@ -1,0 +1,7 @@
+schema_version: '0.1'
+id: f-youth-motion
+label: F Youth Motion
+source: SOLVIA_F_YOUTH_MOTION_V3.zip
+source_status: complete-fragile-runtime
+note: sourceは回収済み。旧loader系統とは別に完全HTMLを保管。
+space_root: /Solvia/02_バージョン

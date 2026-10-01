@@ -1,0 +1,7 @@
+schema_version: '0.1'
+id: f-rizz-nini
+label: F Rizz / Nini
+source: SOLVIA_F_RIZZ_NINI.zip
+source_status: complete
+note: 小型画像を含む完全source。
+space_root: /Solvia/02_バージョン

@@ -1,0 +1,7 @@
+schema_version: '0.1'
+id: d-pink-luxe
+label: D Pink Luxe
+source: SOLVIA_D_PINK_LUXE_V2_SELF_CONTAINED.zip
+source_status: complete
+note: 動画はshared assetへのsymlink。
+space_root: /Solvia/02_バージョン

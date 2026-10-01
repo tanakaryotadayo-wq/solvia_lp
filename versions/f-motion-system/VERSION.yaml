@@ -1,0 +1,6 @@
+schema_version: '0.1'
+id: f-motion-system
+label: F Motion System V1
+source: SOLVIA_F_MOTION_SYSTEM_V1.zip
+source_status: pending-large-webm
+note: MP4 fallbackあり。alpha webmはSpace正本のまま。

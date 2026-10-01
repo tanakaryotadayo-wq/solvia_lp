@@ -1,0 +1,7 @@
+schema_version: '0.1'
+id: f-premium-agency
+label: F Premium Agency
+source: SOLVIA_F_PREMIUM_AGENCY.zip
+source_status: complete
+note: 動画はshared assetへのsymlink。
+space_root: /Solvia/02_バージョン

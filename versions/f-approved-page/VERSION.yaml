@@ -1,0 +1,7 @@
+schema_version: '0.1'
+id: f-approved-page
+label: F Approved Page
+source: SOLVIA_F_APPROVED_PAGE_V1.zip
+source_status: pending-binary-import
+note: source text回収済み。共有assets取込み待ち。
+space_root: /Solvia/02_バージョン

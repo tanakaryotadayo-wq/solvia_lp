@@ -1,0 +1,7 @@
+schema_version: '0.1'
+id: c-agency-style
+label: C Agency Style
+source: SOLVIA_C_AGENCY_STYLE_v0.2.zip
+source_status: complete
+note: 単一HTML版。
+space_root: /Solvia/02_バージョン

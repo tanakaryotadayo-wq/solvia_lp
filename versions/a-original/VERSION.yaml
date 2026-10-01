@@ -1,0 +1,7 @@
+schema_version: '0.1'
+id: a-original
+label: A Original
+source: git-main
+source_status: source-complete
+note: Git mainの既存Next.js正本。今回の取り込みでは変更しない。
+space_root: /Solvia/02_バージョン
