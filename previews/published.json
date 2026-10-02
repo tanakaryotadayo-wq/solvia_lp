@@ -1,0 +1,18 @@
+{
+  "status": "published",
+  "recorded_date": "2026-10-02",
+  "public_url": "https://solvia-zeta.vercel.app/",
+  "vercel_project": "solvia",
+  "vercel_team": "saharahinatas-projects",
+  "dashboard_url": "https://vercel.com/saharahinatas-projects/solvia",
+  "deployment_url": "https://solvia-75odk3i2p-saharahinatas-projects.vercel.app/",
+  "published_html": "previews/published.html",
+  "html_sha256": "ee6824ba48941d6a876a90013536b25c39a09a6d5aec591526121242e83b9fab",
+  "html_bytes": 937402,
+  "source_approved_url": "https://solvia-canonical-layout-review-41fsrvvaq.vercel.app/",
+  "verification": {
+    "public_http_status": 200,
+    "published_html_byte_identical": true,
+    "18_pro_video_visibility": "user-confirmed on source-approved URL before deployment"
+  }
+}

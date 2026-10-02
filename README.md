@@ -1,6 +1,19 @@
 # solvia LP
 
-ライバー事務所 [solvia](https://solvialp-ten.vercel.app) のランディングページプロジェクト。
+ライバー事務所 [solvia](https://solvia-zeta.vercel.app/) のランディングページプロジェクト。
+
+## 現在掲載中（2026-10-02）
+
+- 公開URL: https://solvia-zeta.vercel.app/
+- Vercel管理画面: https://vercel.com/saharahinatas-projects/solvia
+- Vercelプロジェクト: saharahinata's projects / solvia
+- 掲載中のHTML: [previews/published.html](previews/published.html)
+- 掲載記録: [previews/published.json](previews/published.json)
+
+18 Proで動画が見えると確認された版を、そのままVercel Dropで公開しています。
+掲載中のHTMLは上記ファイルへ変更せずに保存し、公開ページのHTMLとのバイト一致を確認済みです。
+
+現在の公開ページは静的HTMLによるデプロイです。下記のデプロイボタンと開発手順は、既存のNext.jsアプリ用です。
 
 ## 🚀 知り合いの方へのデプロイ手順
 
